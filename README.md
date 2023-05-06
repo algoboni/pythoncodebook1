@@ -4,3 +4,4 @@
 3. pg 60~65: 주석의 'feature 표준화'를 'feature scaling'으로 수정한다. '표준화 전후 데이터 분포 비교 시각화'를 'scaling 전후 데이터 분포 비교 시각화'로 수정한다. 
 4. pg 68: 주석의 'np.log1m(y)를 통해 원래대로 되돌릴 수 있다'를 'np.expm1()'으로 수정한다. 
 5. pg 117~118: 코드 상의 "표본 크기"를 "표본 규모로 수정한다.
+6. pg 379: 다음의 코드 블럭 실행 결과를 추가한다. "log: ADF p-value 0.001, KPSS p-value 0.100, box-cox: ADF p-value 0.000, KPSS p-value 0.100"
