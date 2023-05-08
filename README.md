@@ -7,4 +7,6 @@
 6. pg 68: 주석의 'np.log1m(y)를 통해 원래대로 되돌릴 수 있다'를 'np.expm1()'으로 수정한다.
 7. pg 70: 코드 블럭 내 scores로 시작하는 17행의 위치를 19, 19행 다음인 20행으로 수정한다. 24, 25행의 pred_train, pred_test는 삭제해도 무방하다.
 8. pg 85: sys_sampling 코드 블럭 내 "intoin = index-0"의 5행을 삭제한다.
-9. pg 379: 다음의 코드 블럭 실행 결과를 추가한다. "log: ADF p-value 0.001, KPSS p-value 0.100, box-cox: ADF p-value 0.000, KPSS p-value 0.100"
+9. pg 108: 코드 블럭 내 a, b 객체 옆 주석의 '확률밀도함수의 범위'를 '확률변수의 범위'로 수정한다.
+10. pg 109: 표준정규분포의 확률밀도함수, 기댓값, 분산을 구하는 공식 중 x를 z로 X를 Z로 수정한다.
+11. pg 379: 다음의 코드 블럭 실행 결과를 추가한다. "log: ADF p-value 0.001, KPSS p-value 0.100, box-cox: ADF p-value 0.000, KPSS p-value 0.100"
