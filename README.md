@@ -9,4 +9,5 @@
 8. pg 85: sys_sampling 코드 블럭 내 "intoin = index-0"의 5행을 삭제한다.
 9. pg 108: 코드 블럭 내 a, b 객체 옆 주석의 '확률밀도함수의 범위'를 '확률변수의 범위'로 수정한다.
 10. pg 109: 표준정규분포의 확률밀도함수, 기댓값, 분산을 구하는 공식 중 x를 z로 X를 Z로 수정한다.
-11. pg 379: 다음의 코드 블럭 실행 결과를 추가한다. "log: ADF p-value 0.001, KPSS p-value 0.100, box-cox: ADF p-value 0.000, KPSS p-value 0.100"
+11. pg 110: 지수분포 본문의 "𝜆는 단위시간 동안에 평균적으로 발생한 사건이다"에서 "사건"을 "사건의 횟수"로 수정한다.
+12. pg 379: 다음의 코드 블럭 실행 결과를 추가한다. "log: ADF p-value 0.001, KPSS p-value 0.100, box-cox: ADF p-value 0.000, KPSS p-value 0.100"
