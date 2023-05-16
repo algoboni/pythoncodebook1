@@ -3,7 +3,7 @@
 2. pg 30: 상관계수의 본문 내용을 다음과 같이 수정한다. "피어슨(Pearson)의 적률상관계수는 양적변수의 상관관계를 나타낸다. 다음 코드에 의하면 Age와 Fare의 상관계수는 0.093인데 이는 상관성이 거의 없다고 볼 수 있다. 한편, 해당 상관계수의 p-value를 보면 유의수준 0.05보다 작기 때문에 표본의 상관계수가 모상관계수 0과 차이가 없다는 귀무가설을 기각할 수 있다. 따라서 해당 상관계수는 통계적으로 유의하다." 또한, 코드 블럭의 실행 결과를 "피어슨 상관계수 0.093, p-value 0.013"으로 수정한다.
 3. pg 44: 세번째 줄에 다음의 보충 설명을 추가한다. "아래의 정상적인 데이터의 범위를 벗어난 데이터 포인트들을 이상치로 본다."
 4. pg 52: RandomOverSampler 코드블럭 14행 파라미터로, "style='y', markers=['s', 'X']"를 추가한다. 
-5. pg 57~58: "Test F1-score를 기준으로, K-means SMOTE 데이터(0.92)가 다른 데이터들보다 가장 높은 분류 성능을 나타냈다. 이는 오버샘플링 하기 전 원본 데이터(0.91)보다도 더 높은 수치이다. 반면, Borderline SMOTE 데이터(0.80)는 가장 낮은 분류 성능을 나타냈다."로 본문의 내용을 수정한다. 코드 블럭 내 data_title의 내용을 'BorderlineSMOTE'를 추가한 "['no oversampling', 'RandomOverSampler', 'SMOTE', 'BorderlineSMOTE', 'KMeansSMOTE', 'SVMSMOTE', 'ADASYN']"으로 수정한다.
+5. pg 57~58: "Test F1-score를 기준으로, K-means SMOTE 데이터가 다른 데이터들보다 가장 높은 분류 성능을 나타냈다. 이는 오버샘플링 하기 전 원본 데이터보다도 더 높은 수치이다. 반면, Borderline SMOTE 데이터는 가장 낮은 분류 성능을 나타냈다."로 본문의 내용을 수정한다. 코드 블럭 내 data_title의 내용을 'BorderlineSMOTE'를 추가한 "['no oversampling', 'RandomOverSampler', 'SMOTE', 'BorderlineSMOTE', 'KMeansSMOTE', 'SVMSMOTE', 'ADASYN']"으로 수정한다.
 6. pg 60~65: 주석의 'feature 표준화'를 'feature scaling'으로 수정한다. '표준화 전후 데이터 분포 비교 시각화'를 'scaling 전후 데이터 분포 비교 시각화'로 수정한다. 
 7. pg 68: 주석의 'np.log1m(y)를 통해 원래대로 되돌릴 수 있다'를 'np.expm1()'으로 수정한다.
 8. pg 70: 코드 블럭 내 scores로 시작하는 17행의 위치를 19, 19행 다음인 20행으로 수정한다. 24, 25행의 pred_train, pred_test는 삭제해도 무방하다.
