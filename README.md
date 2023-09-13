@@ -25,4 +25,5 @@
 25. pg 211: Mallows Cp의 설명을 다음과 같이 수정한다. Colin Lingwood Mallows가 제안한 AIC의 변형이다. bias가 적은 방향으로 변수를 선택하며 Cp값이 (p+상수의 개수)와 비슷할 수록 편향이 작고 우수한 모델이라고 판단한다. 후보 설명변수들로 적합한 모델의 &SSE_p&와 전체 설명변수로 적합했을 때의 $MSE_{full}$로 아래와 같이 Cp를 구한다. $C_p = {SSE_p \over MSE_{full}} - N + 2(P+1)$  
 26. pg 212~213: Cp에 관련된 코드를 첨부와 같이 수정한다. 파일명: P212-213.ipynb
 27. pg 214: 12행의 주석을 다음과 같이 수정한다. Jarque bera 검정에 의해서는 유의수준 0.05 기준으로 정규분포와 차이가 없는 것(H0)으로 나온다. 26행의 '주황색 표시선'을 '산점도 가운데 회귀선'으로 수정한다.
-28. pg 379: 다음의 코드 블럭 실행 결과를 추가한다. "log: ADF p-value 0.001, KPSS p-value 0.100, box-cox: ADF p-value 0.000, KPSS p-value 0.100"
+28. pg 262: 블럭 2행의 load_breast_cancer 대신 load_diabetes를 불러와서 5~8행에서 적용하고 회귀 분석을 진행한다. 8행의 stratify=y를 삭제한다. 
+29. pg 379: 다음의 코드 블럭 실행 결과를 추가한다. "log: ADF p-value 0.001, KPSS p-value 0.100, box-cox: ADF p-value 0.000, KPSS p-value 0.100"
