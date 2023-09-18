@@ -27,4 +27,5 @@
 27. pg 214: 12행의 주석을 다음과 같이 수정한다. Jarque bera 검정에 의해서는 유의수준 0.05 기준으로 정규분포와 차이가 없는 것(H0)으로 나온다. 26행의 '주황색 표시선'을 '산점도 가운데 회귀선'으로 수정한다.
 28. pg 262: 블럭 2행의 load_breast_cancer 대신 load_diabetes를 불러와서 5~8행에서 적용하고 회귀 분석을 진행한다. 8행의 stratify=y를 삭제한다.
 29. pg 266: 블럭 4행의 load_breast_cancer 대신 load_diabetes를 불러와서 5행에 적용하고 회귀 분석을 진행한다. 9행의 stratify=y를 삭제한다.
-30. pg 379: 다음의 코드 블럭 실행 결과를 추가한다. "log: ADF p-value 0.001, KPSS p-value 0.100, box-cox: ADF p-value 0.000, KPSS p-value 0.100"
+30. pg 347: 블럭 26행의 주석을 precision-recall의 차이가 최소가되는 지점 찾기로 수정한다.
+31. pg 379: 다음의 코드 블럭 실행 결과를 추가한다. "log: ADF p-value 0.001, KPSS p-value 0.100, box-cox: ADF p-value 0.000, KPSS p-value 0.100"
